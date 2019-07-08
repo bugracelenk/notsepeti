@@ -1,0 +1,8 @@
+export const GET_NOTES = "GET_NOTES";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const GET_NOTE = "GET_NOTE";
+export const PUBLISH_NOTE = "PUBLISH_NOTE";
+export const DELETE_NOTE = "DELETE_NOTE";
+export const ADD_FLASH_MESSAGE = "ADD_FLASH_MESSAGE";
+export const DELETE_FLASH_MESSAGE = "DELETE_FLASH_MESSAGE";

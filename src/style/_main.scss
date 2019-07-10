@@ -1,0 +1,28 @@
+.jumbotron {
+  width: 100%;
+  &-left {
+    position: absolute;
+    left: 0;
+  }
+  &-right {
+    position: absolute;
+    right: 4em;
+    top: 3em;
+    font-family: $title-font;
+    h4 {
+      font-weight: lighter;
+    }
+    h1 {
+      font-weight: lighter;
+      span {
+        font-weight: bolder;
+      }
+    }
+  }
+  &-search {
+    input:focus, input { 
+      outline: none !important;
+      border: none !important;
+    }
+  }
+}

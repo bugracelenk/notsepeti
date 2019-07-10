@@ -9,14 +9,14 @@ export default class Main extends Component {
             <img alt="jumbo-image" />
           </div>
           <div className="jumbotron-right">
-            <div className="jumbtron-title">
+            <div className="jumbotron-title">
               <h4>Study any topic, anytime</h4>
               <h1>
                 Just <span>Learn</span>
               </h1>
             </div>
             <div className="jumbotron-search">
-              <input id="jumbosearch" name="jumbosearch" placeholder="What do you want to study ?"/>
+              <div className="jumbotron-searchWrapper"><input id="jumbosearch" name="jumbosearch" placeholder="What do you want to study ?"/></div>
               <span className="button-search"><i class="fas fa-search"></i></span>
             </div>
           </div>

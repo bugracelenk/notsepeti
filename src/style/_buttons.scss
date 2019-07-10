@@ -1,8 +1,23 @@
-button {
+.button {
   &-search {
-    background: $main-color;
-    display: block;
-    width: 1em;
-    height: 1em;
+    background-color: $main-color;
+    display: inline-block;
+    width: 6em;
+    height: 4em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 0.1em 0.1em 2em 0.001em $main-color;
+    left: -45px;
+    position: relative;
+    i {
+      text-align: center;
+      top: 0.8em;
+      left: 1.5em;
+      color: white;
+      position: relative;
+      font-size: 1.5em;
+    }
   }
 }

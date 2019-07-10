@@ -3,26 +3,58 @@
   &-left {
     position: absolute;
     left: 0;
+    width: 50%;
+    visibility: hidden;
   }
   &-right {
     position: absolute;
-    right: 4em;
+    left: 3em;
     top: 3em;
     font-family: $title-font;
+    width: 100%;
+    
+  }
+  &-title {
     h4 {
+      text-transform: uppercase;
+      font-size: 1.2em;
       font-weight: lighter;
+      color: $secondary-color;
+      margin-bottom: -40px;
     }
     h1 {
+      font-size: 5em;
       font-weight: lighter;
+      color: $secondary-color;
       span {
         font-weight: bolder;
+        color: $title-color;
       }
     }
   }
   &-search {
-    input:focus, input { 
+    input:focus,
+    input {
       outline: none !important;
       border: none !important;
+    }
+  }
+  &-searchWrapper {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    width: 80%;
+    height: 4em;
+    position: relative;
+    left: -10px;
+    box-shadow: 0.1em 0.1em 2em 0.01em $secondary-color;
+    display: inline-block;
+    input {
+      top: 0.65em;
+      left: 0.9em;
+      position: relative;
+      font-size: 1.5em;
+      font-weight: lighter;
+      color: $secondary-color;
     }
   }
 }

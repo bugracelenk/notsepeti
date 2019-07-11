@@ -21,6 +21,44 @@ export default class Main extends Component {
             </div>
           </div>
         </div>
+
+        <div className="section">
+          <h1>Recommended <span>For You</span></h1>
+          <div className="recomendetions">
+            <div className="recommended">
+              <div className="recommended-top">
+                <span className="recommended-count">01</span>
+              </div>
+              <div className="recommended-bottom">
+                <h3>Coding</h3>
+              </div>
+            </div>
+            <div className="recommended">
+              <div className="recommended-top">
+                <span className="recommended-count">01</span>
+              </div>
+              <div className="recommended-bottom">
+                <h3>Coding</h3>
+              </div>
+            </div>
+            <div className="recommended">
+              <div className="recommended-top">
+                <span className="recommended-count">01</span>
+              </div>
+              <div className="recommended-bottom">
+                <h3>Coding</h3>
+              </div>
+            </div>
+            <div className="recommended">
+              <div className="recommended-top">
+                <span className="recommended-count">01</span>
+              </div>
+              <div className="recommended-bottom">
+                <h3>Coding</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

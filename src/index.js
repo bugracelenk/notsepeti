@@ -12,7 +12,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import setAuthToken from "utils/setAuthToken";
 import { setCurrentUser } from "actions/authActions";
 
-import { Main } from 'views';
+import { Main, Profile } from 'views';
 
 const store = createStore(
   reducers,
@@ -31,7 +31,7 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/" component={Profile} />
         {/* <Route path="/login" component={LoginPage} /> */}
         {/* <Route path="/profile" component={requireAuth(ProfilePage)} /> */}
       </Switch>
